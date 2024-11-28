@@ -57,7 +57,6 @@ function calculateTotalCompensation(uniqueEmployeeDetails) {
 
     }
     return uniqueEmployeeDetails;
-
 }
 
 function groupByDepartment(compensationList) {
@@ -82,8 +81,5 @@ function summaryReport() {
     const Department = groupByDepartment(uniqueEmployeelist);
     console.log(Department);
 }
-
-
-// }
 
 summaryReport();
